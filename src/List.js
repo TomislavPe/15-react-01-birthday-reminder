@@ -8,8 +8,12 @@ const List = ({ people }) => {
                 return (
                     <>
                         <article key={id} className="person">
-                            <img src="{img}" alt="" />
-                        </article >
+                            <img src={image} alt={name} />
+                            <div>
+                              <h4>{name}</h4>
+                              <p>{age} years</p>
+                            </div>
+                        </article>
                     </>
                 );
             })}
