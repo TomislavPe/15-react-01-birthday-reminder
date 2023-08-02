@@ -9,7 +9,7 @@ const List = ({ people }) => {
                     <>
                         <article key={id} className="person">
                             <img src="{img}" alt="" />
-                        </article>
+                        </article >
                     </>
                 );
             })}
